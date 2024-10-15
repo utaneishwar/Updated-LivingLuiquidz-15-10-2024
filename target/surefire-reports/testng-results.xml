@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="20" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-15T16:26:03 IST" name="Suite" finished-at="2024-10-15T16:26:25 IST" duration-ms="22067">
+    <groups>
+    </groups>
+    <test started-at="2024-10-15T16:26:03 IST" name="Test" finished-at="2024-10-15T16:26:25 IST" duration-ms="22067">
+      <class name="test.BeerTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:test.BeerTest@5f9edf14]" started-at="2024-10-15T16:26:19 IST" name="createObject" finished-at="2024-10-15T16:26:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="BeerSearchTest()[pri:10, instance:test.BeerTest@5f9edf14]" started-at="2024-10-15T16:26:19 IST" name="BeerSearchTest" finished-at="2024-10-15T16:26:21 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeerSearchTest -->
+        <test-method signature="ApplyTest()[pri:11, instance:test.BeerTest@5f9edf14]" started-at="2024-10-15T16:26:21 IST" name="ApplyTest" finished-at="2024-10-15T16:26:24 IST" duration-ms="2527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyTest -->
+        <test-method signature="MainSearch()[pri:12, instance:test.BeerTest@5f9edf14]" started-at="2024-10-15T16:26:24 IST" name="MainSearch" finished-at="2024-10-15T16:26:24 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainSearch -->
+      </class> <!-- test.BeerTest -->
+      <class name="test.SpiritTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:test.SpiritTest@7d7758be]" started-at="2024-10-15T16:26:03 IST" name="createObject" finished-at="2024-10-15T16:26:03 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="selectProduct()[pri:4, instance:test.SpiritTest@7d7758be]" started-at="2024-10-15T16:26:03 IST" name="selectProduct" finished-at="2024-10-15T16:26:07 IST" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method signature="SortByHighPrice()[pri:5, instance:test.SpiritTest@7d7758be]" started-at="2024-10-15T16:26:07 IST" name="SortByHighPrice" finished-at="2024-10-15T16:26:09 IST" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortByHighPrice -->
+        <test-method signature="SortByAlphabates()[pri:6, instance:test.SpiritTest@7d7758be]" started-at="2024-10-15T16:26:09 IST" name="SortByAlphabates" finished-at="2024-10-15T16:26:12 IST" duration-ms="2474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortByAlphabates -->
+      </class> <!-- test.SpiritTest -->
+      <class name="test.BaseTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:test.BaseTest@5167f57d]" started-at="2024-10-15T16:25:49 IST" name="initBrowser" finished-at="2024-10-15T16:26:03 IST" duration-ms="14297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BaseTest@5167f57d]" started-at="2024-10-15T16:26:26 IST" name="tearDown" finished-at="2024-10-15T16:26:26 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.BaseTest -->
+      <class name="test.AddToCartTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:test.AddToCartTest@2bdd8394]" started-at="2024-10-15T16:26:12 IST" name="createObject" finished-at="2024-10-15T16:26:12 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="SelectItem()[pri:7, instance:test.AddToCartTest@2bdd8394]" started-at="2024-10-15T16:26:12 IST" name="SelectItem" finished-at="2024-10-15T16:26:19 IST" duration-ms="6953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method signature="VerifyAddtoCart()[pri:8, instance:test.AddToCartTest@2bdd8394]" started-at="2024-10-15T16:26:19 IST" name="VerifyAddtoCart" finished-at="2024-10-15T16:26:19 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddtoCart -->
+        <test-method signature="SearchOnCartPage()[pri:9, instance:test.AddToCartTest@2bdd8394]" started-at="2024-10-15T16:26:19 IST" name="SearchOnCartPage" finished-at="2024-10-15T16:26:19 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOnCartPage -->
+      </class> <!-- test.AddToCartTest -->
+      <class name="test.SearchTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:test.SearchTest@68746f22]" started-at="2024-10-15T16:26:24 IST" name="createObject" finished-at="2024-10-15T16:26:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="verifyTitle()[pri:1, instance:test.SearchTest@68746f22]" started-at="2024-10-15T16:26:24 IST" name="verifyTitle" finished-at="2024-10-15T16:26:24 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="searchProducts()[pri:2, instance:test.SearchTest@68746f22]" started-at="2024-10-15T16:26:24 IST" name="searchProducts" finished-at="2024-10-15T16:26:25 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProducts -->
+        <test-method signature="valiidateSearchResults()[pri:3, instance:test.SearchTest@68746f22]" started-at="2024-10-15T16:26:25 IST" name="valiidateSearchResults" finished-at="2024-10-15T16:26:25 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiidateSearchResults -->
+      </class> <!-- test.SearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentlistener.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.SpiritTest">
+        <methods>
+          <include name="SortByAlphabates"/>
+          <include name="tearDown"/>
+          <include name="createObject"/>
+          <include name="SortByHighPrice"/>
+          <include name="initBrowser"/>
+          <include name="selectProduct"/>
+        </methods>
+      </class> <!-- test.SpiritTest -->
+      <class name="test.BaseTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- test.BaseTest -->
+      <class name="test.AddToCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createObject"/>
+          <include name="initBrowser"/>
+          <include name="VerifyAddtoCart"/>
+          <include name="SearchOnCartPage"/>
+          <include name="SelectItem"/>
+        </methods>
+      </class> <!-- test.AddToCartTest -->
+      <class name="test.SearchTest">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="tearDown"/>
+          <include name="searchProducts"/>
+          <include name="createObject"/>
+          <include name="valiidateSearchResults"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- test.SearchTest -->
+      <class name="test.BeerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createObject"/>
+          <include name="initBrowser"/>
+          <include name="BeerSearchTest"/>
+          <include name="ApplyTest"/>
+          <include name="MainSearch"/>
+        </methods>
+      </class> <!-- test.BeerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
